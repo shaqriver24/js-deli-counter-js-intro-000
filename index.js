@@ -10,7 +10,7 @@ function nowServing(katzDeliLine) {
     return "There is nobody waiting to be served!"
 }
 
-function currentLine(n) {
+/*function currentLine(n) {
   if (!n.length) {
     return "The line is currently empty."
   }
@@ -23,3 +23,4 @@ function currentLine(n) {
 
   return `The line is currently: ${line.join(', ')}`
 }
+*/
