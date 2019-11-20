@@ -11,7 +11,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(num) {
-  
+
 
   const line = []
 
