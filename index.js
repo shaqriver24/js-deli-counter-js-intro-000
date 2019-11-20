@@ -11,6 +11,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(n) {
-  var line = new Object({n.length : n})
-  return `The line is currently ${line}`
+  var line = []
+  line.push(`${n.length}. ${n}`)
+  return line
 }
