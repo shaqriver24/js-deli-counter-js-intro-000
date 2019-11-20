@@ -11,9 +11,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(num) {
-  if (!num.length) {
-    return "The line is currently empty."
-  }
+  
 
   const line = []
 
@@ -22,4 +20,8 @@ function currentLine(num) {
   }
 
   return `The line is currently: ${line.join(', ')}`
+
+  if (!num.length) {
+    return "The line is currently empty."
+  }
 }
