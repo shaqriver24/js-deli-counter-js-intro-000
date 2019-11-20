@@ -21,5 +21,5 @@ function currentLine(n) {
     line.push(`${i + 1}. ${line[i]}`)
   }
 
-  return `The line is currently: ${line.join(',')}`
+  return `The line is currently: ${line.join(', ')}`
 }
