@@ -4,9 +4,8 @@ function takeANumber(num, name) {
 }
 
 function nowServing(katzDeliLine) {
-  do {
+  for(var i = katzDeliLine.length; i > 0; katzDeliLine.shift()) {
     return `Currently serving ${katzDeliLine[0]}.`
-  } while(katzDeliLine.shift() > 0)
-
+  }
   return "There is nobody waiting to be served!"
 }
