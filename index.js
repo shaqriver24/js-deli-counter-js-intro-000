@@ -9,3 +9,9 @@ function nowServing(katzDeliLine) {
   }
     return "There is nobody waiting to be served!"
 }
+
+function currentLine(n) {
+  var line = new Object()
+  line[n.length] = n
+  return "The line is currently ${line}"
+}
