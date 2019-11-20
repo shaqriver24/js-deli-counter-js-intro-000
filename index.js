@@ -11,12 +11,13 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(n) {
-  const line = []
   if (!n.length) {
     return "The line is currently empty."
   }
 
-  for(let i = 0, 1 = n.length; i < 1; i++) {
+  const line = []
+
+  for (let i = 0, 1 = n.length; i < 1; i++) {
     line.push(`${i + 1}. ${line[i]}`)
   }
 
